@@ -90,6 +90,10 @@ body{
     text-decoration: none;
     color: white;
  }
+ .side-nav div a:hover{
+    text-decoration: none;
+    color:#eb2e64;
+ } 
 .side-nav .footer{
     margin-top: auto;
     color: white;
@@ -118,8 +122,11 @@ body{
 }
 .main-section-heading-right div a{
     color: var(--pink);
-    margin-right: 30px;
-    
+    margin-right: 30px;    
+}
+.main-section-heading-right div a:hover{
+    font-size: 20px;   
+    text-shadow: rgb(239, 239, 239) 2px 2px 5px;
 }
  .main-section-heading-rating{
     background-color: var(--pink);
@@ -157,10 +164,6 @@ body{
 .main-section-details-list ul{
     list-style: none;
     margin-right: 50px;
-}
-.recommend-users{
-    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
-    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
 }
 
 .main-section-details-rating{
@@ -201,6 +204,11 @@ body{
 }
 .main-section-details-showall div a{
     color: var(--pink);
+    text-align: center;
+}
+.main-section-details-showall div a:hover{
+    font-size: 20px;   
+    text-shadow: rgb(239, 239, 239) 2px 2px 5px;
 }
 .right-info{
     width: 40%;
@@ -224,5 +232,14 @@ body{
     background-color:#eb2e64;
     color: white;
     border: none;
+    border-radius: 50px;
+}
+.booknow-button button:hover{
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    background-color:white;
+    color: var(--pink);
+    border: 2px solid #eb2e64;
     border-radius: 50px;
 }
