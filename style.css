@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --pink: #eb2e64;
+}
+.header-nav{
+    height: 40px;
+    display: flex;
+    padding: 15px;
+    /* background-color: aqua; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.header-logo{
+    margin-right: 20%;
+    
+}
+.header-logo img{
+    height: 50px;
+}
+.header-search-bar{
+    margin-right: 30%;
+
+}
+.header-search-bar input{
+    width: 300px;
+    height: 20px;
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgb(239, 239, 239);
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.header-profile-info{
+    display: flex;
+    align-items: center;
+    /* margin-left: 30px; */
+}
+
+.header-profile-info-notification{
+    display: flex;
+    margin-right: 25px;
+}
+.header-profile-info-chat{
+    display: flex;
+    margin-right: 25px;
+}
+.header-icon{
+    height: 30px;
+}
+.header-count{
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--pink);
+    text-align: center;
+    color: white;
+    display: flex;
+    
+}
+.header-count p{
+    margin:auto;
+}
+
+.header-profile-info-image img{
+    height: 50px;
+    margin-right: 15px;
+}
+
+.section{
+    display: flex;
+}
+ /* Side Navigation */
+
+ .side-nav{
+    display: flex;
+    flex-direction: column;
+    width: 535px;
+    height: 1010px;
+    background-color: #333333;
+    padding-top: 50px;
+    text-align: center;
+ }
+ .side-nav div{
+    margin: 15px 0px;
+ }
+ .side-nav div a{
+    text-decoration: none;
+    color: white;
+ }
+.side-nav .footer{
+    margin-top: auto;
+    color: white;
+}
+ .main-section img{
+    height: 270px;
+    
+ }
+ .main-section-heading{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* flex-wrap: wrap; */
+    margin-top: -3px;
+ }
+ .main-section-heading div h1{
+    font-size: 36px;
+    color: #333333;
+ }
+.main-section-heading-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main-section-heading-right div a{
+    color: var(--pink);
+    margin-right: 30px;
+    
+}
+ .main-section-heading-rating{
+    background-color: var(--pink);
+    text-align: center;
+    width: 100px;
+    color: white;
+ }
+ 
+.main-section-heading-rating p{
+    font-size: 12px;
+    margin-top: -22px;
+}
+
+/* Main Section Details */
+
+.main-section-details{
+    padding: 50px;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.main-section-details-description{
+    padding: 25px;
+    background-color: white;
+    width: 80%;
+    color: #333333;
+    height: 570px;
+    margin-right: 50px;
+    /* font-size: 18px; */
+}
+.main-section-details-list{
+    display: flex;
+}
+.main-section-details-list ul{
+    list-style: none;
+    margin-right: 50px;
+}
+.recommend-users{
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}
+
+.main-section-details-rating{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-section-details-rating-user{
+    background-image: url(./images/quote.png);
+    background-repeat: no-repeat;
+    padding: 25px;
+    background-color: white;
+    width: 55%;
+    color: #333333;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.main-section-details-rating-user img{
+    height: 50px;
+}
+.main-section-details-rating-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.main-section-details-rating-info div p{
+    margin-right: -15px;
+}
+.main-section-details-rating-info h1{
+    font-size: 30px;
+    color: var(--pink)
+}
+.main-section-details-showall div{
+    margin-top: 70px;
+    margin-left: 60px;
+    height: 100px;
+}
+.main-section-details-showall div a{
+    color: var(--pink);
+}
+.right-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.right-info div{
+    margin-bottom: 50px;
+}
+.right-info p{
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+}
+.booknow-button button{
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    background-color:#eb2e64;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
